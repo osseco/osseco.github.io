@@ -30,6 +30,28 @@ export const PROJECTS: Project[] = [
     status: "incubating",
   },
   {
+    name: "cargo-project-tools",
+    description:
+      "Install a project's cargo tools from its own Cargo.lock files, so you can audit them and patch vulnerable dependencies without waiting for a release.",
+    repo: "https://github.com/osseco/cargo-project-tools",
+    site: "https://osseco.github.io/cargo-project-tools/",
+    status: "active",
+  },
+  {
+    name: "setup-cargo-project-tools",
+    description:
+      "A GitHub Action that installs cargo-project-tools, builds the project's tools into an Actions cache and audits their locks.",
+    repo: "https://github.com/osseco/setup-cargo-project-tools",
+    status: "active",
+  },
+  {
+    name: "setup-sfw-free",
+    description:
+      "A GitHub Action that installs Socket Firewall Free, verified against pinned checksums, so package installs block malicious packages.",
+    repo: "https://github.com/osseco/setup-sfw-free",
+    status: "active",
+  },
+  {
     name: "web-design-guide",
     description:
       "One look for every osseco web frontend: tokens, components, starter templates and a Pages workflow.",
