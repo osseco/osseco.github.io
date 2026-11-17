@@ -6,3 +6,9 @@ minimumReleaseAge: 10080
 strictDepBuilds: true
 allowBuilds:
   fsevents: true
+
+# picomatch ReDoS, no patched release yet. Dev-only (vite/vitest tooling);
+# globs are ours, not user input. Remove once picomatch >4.0.7 is out.
+audit:
+  ignore:
+    - GHSA-fc5q-39xc-vjpf
