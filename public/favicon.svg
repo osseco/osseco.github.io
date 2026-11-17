@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>OSSEco</title>
+  <!-- Brand teal tile with three linked nodes: an ecosystem of projects. -->
+  <rect width="32" height="32" rx="7" fill="oklch(0.47 0.09 185)"/>
+  <g stroke="oklch(0.985 0.01 185)" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M16 10.5 10.5 20M16 10.5 21.5 20M10.5 21.5h11"/>
+  </g>
+  <g fill="oklch(0.985 0.01 185)">
+    <circle cx="16" cy="9.5" r="3"/>
+    <circle cx="9.5" cy="21.5" r="3"/>
+    <circle cx="22.5" cy="21.5" r="3"/>
+  </g>
+</svg>
